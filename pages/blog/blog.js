@@ -17,8 +17,8 @@ function createPostPreview(post) {
 
   item.innerHTML = `
     <a href="./post.html?slug=${post.slug}">
-      <h4>${post.title}</h4>
       <time datetime="${post.date}">${formatDate(post.date)}</time>
+      <h4>${post.title}</h4>
       <p class="excerpt">${post.excerpt}</p>
       <span class="read-more">Read more →</span>
     </a>

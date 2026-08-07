@@ -18,13 +18,18 @@ function loadPost(slug) {
   document.title = meta.title;
 
   fetch(`./posts/${slug}.md`)
-    .then(response => response.text())
-    .then(markdown => renderPost(container, meta, markdown));
+    .then(response => {
+      if (!response.ok) throw new Error('Failed to load post');
+      return response.text();
+    })
+    .then(markdown => renderPost(container, meta, markdown))
+    .catch(() => {
+      container.innerHTML = '<p>Failed to load post.</p>';
+    });
 }
 
 function renderPost(container, meta, markdown) {
   container.innerHTML = `
-    <h1>${meta.title}</h1>
     <time datetime="${meta.date}">${formatDate(meta.date)}</time>
     ${parseMarkdown(markdown)}
   `;

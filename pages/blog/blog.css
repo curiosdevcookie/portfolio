@@ -56,6 +56,7 @@ h2 {
   font-family: var(--font-handwritten-Beth);
   font-size: 1.8rem;
   color: var(--color-grey);
+  align-self: flex-end;
 }
 
 .blog-post-preview .excerpt {
@@ -78,6 +79,8 @@ h2 {
 }
 
 .post time {
+  display: block;
+  text-align: right;
   font-family: var(--font-handwritten-Beth);
   font-size: 1.8rem;
   color: var(--color-grey);

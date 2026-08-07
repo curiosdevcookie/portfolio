@@ -1,3 +1,5 @@
+# Be your own motivation
+
 ![Be your own motivation](/images/blog/be-your-own-motivation/sugar_daddy_motivation.png)
 
 To whom it may concern, dear diary… today I have zero motivation, and nothing gets done. Choices feel heavy, attention collapses, and procrastination looks like laziness.
