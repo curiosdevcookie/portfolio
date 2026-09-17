@@ -117,10 +117,6 @@ footer {
   box-shadow: 0 0 1rem 0.2rem var(--color-black);
 }
 
-header {
-  font-size: 2rem;
-}
-
 .header-pages {
   display: flex;
   justify-content: space-between;
@@ -138,7 +134,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   font-family: var(--font-handwritten-Beth);
-  font-size: 2rem;
+  font-size: clamp(1.3rem, 1vw + 1rem, 5rem);
   height: 100%;
 }
 
