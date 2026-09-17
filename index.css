@@ -134,7 +134,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   font-family: var(--font-handwritten-Beth);
-  font-size: clamp(1rem, 1vw + 1rem, 5rem);
+  font-size: clamp(1.3rem, 1vw + 1rem, 5rem);
   height: 100%;
 }
 

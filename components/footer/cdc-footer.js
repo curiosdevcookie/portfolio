@@ -27,12 +27,12 @@ class Footer extends HTMLElement {
         }
 
         p {
-          font-size: clamp(1rem, 1vw, 2rem);
+          font-size: clamp(1.4rem, 1vw, 2rem);
         }
       </style>
 
         <section>
-        <p>✨ Built in 🇪🇺🇩🇪…  with copious amounts of [🫀, 🧠 , ☕️ , 🎉] by <a href='https://twitter.com/curiosdevcookie' rel="noopener noreferrer"> @curiosdevcookie</a> ✨</p>
+        <p>Built with [🫀, 🧠 , ☕️ , 🎉] by <a href='/pages/about/about.html'>curiosdevcookie</a>.</p>
         </section>
     `;
   }
